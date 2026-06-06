@@ -188,7 +188,7 @@ export function DishForm({
             <>
               <svg className="up-icon" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="17 8 12 3 7 8" /><line x1="12" y1="3" x2="12" y2="15" /></svg>
               <span className="up-label">Tocá para subir una foto</span>
-              <span className="up-sub">Si no hay foto se usa el logo de Criollo</span>
+              <span className="up-sub">Si no hay foto se usa el logo de Don Bar</span>
             </>
           )}
         </div>

@@ -22,7 +22,7 @@ export function AdminShell({
         <div className="brand">
           <LogoMark size={36} />
           <div>
-            <div className="t">CRIOLLO</div>
+            <div className="t">DON SOCIAL BAR</div>
             <div className="s">Panel de la carta</div>
           </div>
         </div>

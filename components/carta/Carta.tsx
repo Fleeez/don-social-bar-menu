@@ -57,12 +57,12 @@ export function Carta({
   function openDish(slug: string) {
     const params = new URLSearchParams(window.location.search);
     params.set("plato", slug);
-    window.history.pushState({ criolloModal: true }, "", `?${params.toString()}`);
+    window.history.pushState({ donBarModal: true }, "", `?${params.toString()}`);
     setOpenSlug(slug);
   }
 
   function closeDish() {
-    if (window.history.state?.criolloModal) {
+    if (window.history.state?.donBarModal) {
       window.history.back();
     } else {
       const params = new URLSearchParams(window.location.search);
@@ -74,12 +74,12 @@ export function Carta({
   }
 
   useEffect(() => {
-    const saved = localStorage.getItem("criollo-lang") as Lang | null;
+    const saved = localStorage.getItem("don-bar-lang") as Lang | null;
     if (saved && ["es", "en", "pt"].includes(saved)) setLang(saved);
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("criollo-lang", lang);
+    localStorage.setItem("don-bar-lang", lang);
     document.documentElement.lang = lang;
   }, [lang]);
 

@@ -3,7 +3,7 @@ import "./admin.css";
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "Criollo · Panel",
+  title: "Don Social Bar · Panel",
   robots: { index: false, follow: false },
 };
 

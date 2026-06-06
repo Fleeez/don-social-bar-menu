@@ -104,7 +104,7 @@ export function DishList({
                       // eslint-disable-next-line @next/next/no-img-element
                       <img src={d.photo_url} alt="" />
                     ) : (
-                      <div className="ph">CRIOLLO</div>
+                      <div className="ph">DON BAR</div>
                     )}
                   </div>
                   <div className="dish-row-info">
